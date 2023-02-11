@@ -1,5 +1,5 @@
 var removeDuplicates = function(nums) {
-  nextIndex = 1;
+  let nextIndex = 1;
   for(let i = 0; i < nums.length;) {
       let j = i + 1
       while(j < nums.length && nums[i] === nums[j]) {
