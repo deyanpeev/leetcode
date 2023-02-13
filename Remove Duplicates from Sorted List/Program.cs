@@ -40,8 +40,7 @@ public class Program
     public static void Main(String[] args)
     {
         var solution = new Solution();
-        //var head = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(2, new ListNode(2))))));
-        var head = null;
+        var head = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(2, new ListNode(2))))));
         var sorted = solution.DeleteDuplicates(head);
         TraverseSorted(sorted);
     }
