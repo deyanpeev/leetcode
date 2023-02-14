@@ -1,0 +1,15 @@
+D:\Projects\Trainings\Algo\Add Two Numbers\bin\Debug\net7.0\Add Two Numbers.exe
+D:\Projects\Trainings\Algo\Add Two Numbers\bin\Debug\net7.0\Add Two Numbers.deps.json
+D:\Projects\Trainings\Algo\Add Two Numbers\bin\Debug\net7.0\Add Two Numbers.runtimeconfig.json
+D:\Projects\Trainings\Algo\Add Two Numbers\bin\Debug\net7.0\Add Two Numbers.dll
+D:\Projects\Trainings\Algo\Add Two Numbers\bin\Debug\net7.0\Add Two Numbers.pdb
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.csproj.AssemblyReference.cache
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.AssemblyInfoInputs.cache
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.AssemblyInfo.cs
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.csproj.CoreCompileInputs.cache
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.dll
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\refint\Add Two Numbers.dll
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.pdb
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\Add Two Numbers.genruntimeconfig.cache
+D:\Projects\Trainings\Algo\Add Two Numbers\obj\Debug\net7.0\ref\Add Two Numbers.dll
