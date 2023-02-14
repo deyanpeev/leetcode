@@ -1,0 +1,15 @@
+D:\Projects\Trainings\Algo\Merge Sorted Array\bin\Debug\net7.0\Merge Sorted Array.exe
+D:\Projects\Trainings\Algo\Merge Sorted Array\bin\Debug\net7.0\Merge Sorted Array.deps.json
+D:\Projects\Trainings\Algo\Merge Sorted Array\bin\Debug\net7.0\Merge Sorted Array.runtimeconfig.json
+D:\Projects\Trainings\Algo\Merge Sorted Array\bin\Debug\net7.0\Merge Sorted Array.dll
+D:\Projects\Trainings\Algo\Merge Sorted Array\bin\Debug\net7.0\Merge Sorted Array.pdb
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.csproj.AssemblyReference.cache
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.AssemblyInfoInputs.cache
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.AssemblyInfo.cs
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.csproj.CoreCompileInputs.cache
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.dll
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\refint\Merge Sorted Array.dll
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.pdb
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\Merge Sorted Array.genruntimeconfig.cache
+D:\Projects\Trainings\Algo\Merge Sorted Array\obj\Debug\net7.0\ref\Merge Sorted Array.dll
