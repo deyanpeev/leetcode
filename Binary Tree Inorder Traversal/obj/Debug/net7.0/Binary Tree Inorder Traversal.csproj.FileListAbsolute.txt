@@ -1,0 +1,15 @@
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\bin\Debug\net7.0\Binary Tree Inorder Traversal.exe
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\bin\Debug\net7.0\Binary Tree Inorder Traversal.deps.json
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\bin\Debug\net7.0\Binary Tree Inorder Traversal.runtimeconfig.json
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\bin\Debug\net7.0\Binary Tree Inorder Traversal.dll
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\bin\Debug\net7.0\Binary Tree Inorder Traversal.pdb
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.csproj.AssemblyReference.cache
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.AssemblyInfoInputs.cache
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.AssemblyInfo.cs
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.csproj.CoreCompileInputs.cache
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.dll
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\refint\Binary Tree Inorder Traversal.dll
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.pdb
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\Binary Tree Inorder Traversal.genruntimeconfig.cache
+D:\Projects\Trainings\Algo\Binary Tree Inorder Traversal\obj\Debug\net7.0\ref\Binary Tree Inorder Traversal.dll
