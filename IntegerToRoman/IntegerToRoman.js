@@ -10,7 +10,7 @@ const SORTED_DIGITS = {
   100: 'C',
   400: 'CD', 
   500: 'D', 
-  900: 'cM',
+  900: 'CM',
   1000: 'M',
 }
 const ORDERED_SUBRACTORS = Object.keys(SORTED_DIGITS);
