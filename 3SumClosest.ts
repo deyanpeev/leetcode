@@ -1,5 +1,6 @@
 function threeSumClosest(nums: number[], target: number): number {
   let closest = Number.MAX_VALUE
+  nums = nums.sort((a,b) => a-b)
 
   for(let i = 0; i < nums.length; i++) {
     let left = i + 1;
@@ -10,8 +11,7 @@ function threeSumClosest(nums: number[], target: number): number {
       if(current === target) {
         return target;
       }
-      if((target < 0 && target + current < target + closest)
-          || (target >= 0 && Math.abs(current - target) < Math.abs(closest - target))) {
+      if(isSmallerDistance(current, closest, target)) {
         closest = current;
       }
 
@@ -26,4 +26,11 @@ function threeSumClosest(nums: number[], target: number): number {
   return closest;
 };
 
-console.log(threeSumClosest([-1,2,1,-4], 1));
+function isSmallerDistance(current: number, previous: number, target: number): boolean {
+  const diffCurrent = current * target < 0 ? Math.abs(current * -1 + target) : Math.abs(current - target);
+  const diffPrevious = previous * target < 0 ? Math.abs(previous * -1 + target) : Math.abs(previous - target);
+  return diffCurrent < diffPrevious;
+}
+
+console.log(threeSumClosest([0,0,0], 1));
+console.log(isSmallerDistance(5,515235235235,1));
