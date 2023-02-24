@@ -1,4 +1,25 @@
 ﻿<Properties StartupConfiguration="{112A7E79-0B46-481F-8200-33A9F85C4AFD}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Symmetric_220Tree FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Symmetric Tree/Program.cs">
+    <Files>
+      <File FileName="Symmetric Tree/Program.cs" Line="26" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Symmetric Tree" expanded="True">
+            <Node name="Symmetric Tree" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Symmetric_220Tree PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
