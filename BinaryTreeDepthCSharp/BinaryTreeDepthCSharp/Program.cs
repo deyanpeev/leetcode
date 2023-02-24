@@ -17,7 +17,12 @@ public class Program
 {
     public int MaxDepth(TreeNode root)
     {
+        if(root == null)
+        {
+            return 0;
+        }
 
+        return GetMaxDepthRecursively(root, 1);
     }
 
     public int GetMaxDepthRecursively(TreeNode node, int current = 0)
