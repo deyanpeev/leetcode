@@ -1,0 +1,15 @@
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/bin/Debug/net7.0/BinaryTreeDepthCSharp
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/bin/Debug/net7.0/BinaryTreeDepthCSharp.deps.json
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/bin/Debug/net7.0/BinaryTreeDepthCSharp.runtimeconfig.json
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/bin/Debug/net7.0/BinaryTreeDepthCSharp.dll
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/bin/Debug/net7.0/BinaryTreeDepthCSharp.pdb
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.csproj.AssemblyReference.cache
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.AssemblyInfoInputs.cache
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.AssemblyInfo.cs
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.csproj.CoreCompileInputs.cache
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.dll
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/refint/BinaryTreeDepthCSharp.dll
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.pdb
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/BinaryTreeDepthCSharp.genruntimeconfig.cache
+/Users/deyanpeev/Projects/Trainings/leetcode/BinaryTreeDepthCSharp/BinaryTreeDepthCSharp/obj/Debug/net7.0/ref/BinaryTreeDepthCSharp.dll

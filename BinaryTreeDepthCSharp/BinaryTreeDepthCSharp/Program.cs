@@ -45,11 +45,31 @@ public class Program
         return (Math.Max(GetMaxDepthRecursively(node.left, current + 1),
             GetMaxDepthRecursively(node.right, current + 1)));
     }
+}
+
+public class Solution
+{
+
 
     public static void Main(String[] args)
     {
+        var node = new TreeNode
+        {
+            val = 3,
+            left = new TreeNode { val = 9 },
+            right = new TreeNode
+            {
+                val = 20,
+                left = new TreeNode { val = 15 },
+                right = new TreeNode
+                {
+                    val = 7,
+                    right = new TreeNode { val = 19}
+                }
+            }
+        };
 
+        Program p = new Program();
+        Console.WriteLine(p.MaxDepth(node));
     }
-
-
 }
