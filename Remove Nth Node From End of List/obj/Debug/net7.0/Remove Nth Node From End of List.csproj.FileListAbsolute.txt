@@ -1,0 +1,15 @@
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\bin\Debug\net7.0\Remove Nth Node From End of List.exe
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\bin\Debug\net7.0\Remove Nth Node From End of List.deps.json
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\bin\Debug\net7.0\Remove Nth Node From End of List.runtimeconfig.json
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\bin\Debug\net7.0\Remove Nth Node From End of List.dll
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\bin\Debug\net7.0\Remove Nth Node From End of List.pdb
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.csproj.AssemblyReference.cache
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.AssemblyInfoInputs.cache
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.AssemblyInfo.cs
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.csproj.CoreCompileInputs.cache
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.dll
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\refint\Remove Nth Node From End of List.dll
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.pdb
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\Remove Nth Node From End of List.genruntimeconfig.cache
+D:\Projects\Trainings\Algo\Remove Nth Node From End of List\obj\Debug\net7.0\ref\Remove Nth Node From End of List.dll
