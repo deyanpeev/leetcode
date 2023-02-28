@@ -69,6 +69,42 @@ public class Solution
     }
 }
 
+public class SolutionOptimized
+{
+    public ListNode RemoveNthFromEnd(ListNode head, int n)
+    {
+        ListNode resultHead = head;
+        var currentNode = resultHead;
+        var nthNode = currentNode;
+        int nFromBack = 0, totalListSize = 1;
+
+        while (currentNode.next != null)
+        {
+            if(nFromBack < n)
+            {
+                nFromBack++;
+            }
+            else if (nFromBack == n)
+            {
+                nthNode = nthNode.next;
+            }
+            currentNode = currentNode.next;
+            totalListSize++;
+        }
+        if (nthNode == resultHead && (nFromBack == 0 || totalListSize <= n))
+        {
+            return resultHead = resultHead?.next;
+        }
+        else
+        {
+            nthNode.next = nthNode?.next?.next;
+        }
+
+        return resultHead;
+    }
+}
+
+
 public class Program
 {
     public static void Main(String[] args)
@@ -79,23 +115,25 @@ public class Program
             next = new ListNode
             {
                 val = 2,
-                next = new ListNode
-                {
-                    val = 3,
-                    next = new ListNode { 
-                        val = 4,
-                        next = new ListNode
-                        {
-                            val = 5
-                        }
-                    }
-                }
+                //next = new ListNode
+                //{
+                //    val = 3,
+                //    next = new ListNode
+                //    {
+                //        val = 4,
+                //        next = new ListNode
+                //        {
+                //            val = 5
+                //        }
+                //    }
+                //}
             }
         };
 
         var solution = new Solution();
+        var optSolution = new SolutionOptimized();
 
-        node = solution.RemoveNthFromEnd(node, 1);
+        node = optSolution.RemoveNthFromEnd(node, 1);
 
         solution.PrintNode(node);
     }
