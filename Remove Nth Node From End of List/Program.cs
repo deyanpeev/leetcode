@@ -115,18 +115,18 @@ public class Program
             next = new ListNode
             {
                 val = 2,
-                //next = new ListNode
-                //{
-                //    val = 3,
-                //    next = new ListNode
-                //    {
-                //        val = 4,
-                //        next = new ListNode
-                //        {
-                //            val = 5
-                //        }
-                //    }
-                //}
+                next = new ListNode
+                {
+                    val = 3,
+                    next = new ListNode
+                    {
+                        val = 4,
+                        next = new ListNode
+                        {
+                            val = 5
+                        }
+                    }
+                }
             }
         };
 
