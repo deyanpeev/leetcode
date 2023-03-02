@@ -19,7 +19,6 @@ function minDepth(root: TreeNode | null): number {
 function findTreeMinDepth(node: TreeNode | null, currentNumber: number, isSlit: boolean = false): number {
   if(!node) {
 		if(!isSlit) {
-			console.log('here');
 			return Number.MAX_SAFE_INTEGER;
 		}
     return currentNumber;
@@ -28,13 +27,12 @@ function findTreeMinDepth(node: TreeNode | null, currentNumber: number, isSlit: 
 		return currentNumber;
 	}
 
-	console.log('left - ' + !!node.left);
   const left = findTreeMinDepth(node.left, currentNumber+1, (!!node.left && !!node.right));
   const right = findTreeMinDepth(node.right, currentNumber+1, (!!node.left && !!node.right));
 
   return Math.min(left, right);
 }
 
-// const root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
-const root = new TreeNode(3, null, new TreeNode(20, null, new TreeNode(7, null, new TreeNode(4))));
+const root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
+// const root = new TreeNode(3, null, new TreeNode(20, null, new TreeNode(7, null, new TreeNode(4))));
 console.log(minDepth(root));
