@@ -11,16 +11,19 @@ class TreeNode {
 
 
 function sortedArrayToBST(nums: number[]): TreeNode | null {  
-  
+  const root = new TreeNode();
+  addRecursively(root, nums);
+  return root;  
 };
 
 function addRecursively(node: TreeNode, array: number[]): void {
   const mid = Math.floor(array.length / 2);
   const item = array[mid];
-  const arr1 = array.splice(0, mid);
-  const arr2 = array.splice(mid + 1);
+  const arr1 = array.slice(0, mid);
+  const arr2 = array.slice(mid + 1);
 
   node.val = item;
+  console.log(`item: ${item}`);
   if(arr1.length) {
     node.left = new TreeNode();
     addRecursively(node.left, arr1);
@@ -30,3 +33,5 @@ function addRecursively(node: TreeNode, array: number[]): void {
     addRecursively(node.right, arr2);
   }
 }
+
+sortedArrayToBST([-10,-3,0,5,9]);
