@@ -15,7 +15,10 @@ func search(nums []int, target int) int {
 
 		first := nums[low]
 		mid := nums[midIndex]
-		if (mid < first) != (target < first) {
+
+		// if mid and target are "on the same side" of the first,
+		// we just take mid. Otherwise we use MIN or MAX as needed.
+		if (first > mid) != (first > target) {
 			if target < first {
 				mid = math.MinInt32
 			} else {
