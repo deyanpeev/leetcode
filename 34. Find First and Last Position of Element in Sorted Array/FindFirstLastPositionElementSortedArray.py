@@ -3,22 +3,33 @@ import math
 
 class Solution:
   def searchRange(self, nums: List[int], target: int) -> List[int]:
+    result = [-1,-1]
+    if(len(nums) == 0):
+      return result
+
     start, end = 0, len(nums) - 1
-    while start < end or (nums[start] != target and nums[end] != target):
+    while start < end:
       mid = math.floor((start + end) / 2)
       if nums[mid] < target:
         start = mid + 1
-      elif nums[mid] > target:
-        end = mid - 1
-      else: 
-        quater = start + math.floor(end / 4)
-        theeQuaters = start + math.floor(end * 3 / 4)
-        start = quater
-        end = theeQuaters
+      else:
+        end = mid
+      
+    if nums[start] == target:
+      result[0] = start
+    else:
+      return result
     
-    if start > end:
-      return [-1, -1]
-    return [start, end]
+    end = len(nums) - 1
+    while start < end:
+      mid = math.ceil((start + end) / 2)
+      if nums[mid] > target:
+        end = mid - 1
+      else:
+        start = mid
+    
+    result[1] = end
+    return result
 
 s = Solution()
 print(s.searchRange([5,7,7,8,8,10], 8))
