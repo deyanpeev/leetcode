@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-var EMPTY_SYMBOL byte = '.'
+const EMPTY_SYMBOL byte = '.'
+const BOARD_SIZE = 9
 
 type MatrixElement int
 
@@ -27,7 +28,7 @@ func main() {
 }
 
 func isValidSudoku(board [][]byte) bool {
-	return isValidRows(board) && isValidCols(board)
+	return isValidRows(board) && isValidCols(board) && validateBoxes(board)
 }
 
 func isValidRows(board [][]byte) bool {
@@ -38,15 +39,37 @@ func isValidCols(board [][]byte) bool {
 	return genericValidator(board, Col)
 }
 
+func validateBoxes(board [][]byte) bool {
+	for bigRow := 0; bigRow < BOARD_SIZE; bigRow += 3 {
+		for bigCol := 0; bigCol < BOARD_SIZE; bigCol += 3 {
+			var currentSymbols []byte
+			for row := bigRow; row < bigRow+3; row++ {
+				for col := bigCol; col < bigCol+3; col++ {
+					symbol := board[row][col]
+					if symbol == EMPTY_SYMBOL {
+						continue
+					}
+					if contains(currentSymbols, symbol) {
+						return false
+					}
+					currentSymbols = append(currentSymbols, symbol)
+				}
+			}
+		}
+	}
+
+	return true
+}
+
 func genericValidator(board [][]byte, el MatrixElement) bool {
-	for i := 0; i < len(board); i++ {
+	for i := 0; i < BOARD_SIZE; i++ {
 		var currentSymbols []byte
-		for j := 0; j < len(board); j++ {
+		for j := 0; j < BOARD_SIZE; j++ {
 			var symbol byte
 			if el == Row {
-				symbol = board[i][j]
-			} else if el == Col {
 				symbol = board[j][i]
+			} else if el == Col {
+				symbol = board[i][j]
 			}
 
 			if symbol == EMPTY_SYMBOL {
