@@ -5,7 +5,7 @@ class Solution:
     results = []
     strN = str(n)
     while True:
-      if Solution.isHappySum(strN):
+      if strN == '1':
         return True
       if strN in results:
         return False
@@ -18,17 +18,7 @@ class Solution:
     resultSum = 0
     for digit in digits:
       resultSum += int(digit) ** 2
-    return str(resultSum)
-
-  @staticmethod
-  def isHappySum(digits: str) -> bool:
-    sum = 0
-    for digit in digits:
-      sum += int(digit)
-      if sum > 1:
-        return False
-    return True
-  
+    return str(resultSum)  
 
 s = Solution()
-print(s.isHappy(2))
+print(s.isHappy(19))
