@@ -1,6 +1,6 @@
 function containsNearbyDuplicate(nums: number[], k: number): boolean {
-  for(let i = 0; i < nums.length - k; i++) {
-    for(let j = i + 1; j <= i + k; j++) {
+  for(let i = 0; i < nums.length; i++) {
+    for(let j = i + 1; j <= Math.min((i + k), nums.length); j++) {
       if(nums[i] === nums[j]) {
         return true
       }
@@ -9,4 +9,4 @@ function containsNearbyDuplicate(nums: number[], k: number): boolean {
   return false;
 }
 
-console.log(containsNearbyDuplicate([1,2,3,1,2,3], 2))
+console.log(containsNearbyDuplicate([99,99], 2))
