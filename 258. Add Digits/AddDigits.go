@@ -8,22 +8,18 @@ func main() {
 
 func addDigits(num int) int {
 	for num >= 10 {
-		digits := getDigits(num)
-		num = 0
-		for _, n := range digits {
-			num += n
-		}
+		num = getDigitsSum(num)
 	}
 	return num
 }
 
-func getDigits(num int) []int {
-	var ret []int
+func getDigitsSum(num int) int {
+	var sum int
 
 	for num != 0 {
-		ret = append(ret, num%10)
+		sum += num % 10
 		num /= 10
 	}
 
-	return ret
+	return sum
 }
